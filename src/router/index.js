@@ -277,6 +277,7 @@ export const asyncRoutes = [
         name: 'Data',
         meta: { title: '导入管理' }
       },
+
       {
         path: 'batch',
         component: () => import('@/views/dataManagement/batch'),
