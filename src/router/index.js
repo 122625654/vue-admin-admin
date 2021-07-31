@@ -273,9 +273,21 @@ export const asyncRoutes = [
     children: [
       {
         path: 'data',
-        component: () => import('@/views/dataManagement/index'),
+        component: () => import('@/views/dataManagement/data'),
         name: 'Data',
         meta: { title: '导入管理' }
+      },
+      {
+        path: 'batch',
+        component: () => import('@/views/dataManagement/batch'),
+        name: 'Batch',
+        meta: { title: '批次管理' }
+      },
+      {
+        path: 'case',
+        component: () => import('@/views/dataManagement/case'),
+        name: 'Case',
+        meta: { title: '案件管理' }
       }
     ]
   },
