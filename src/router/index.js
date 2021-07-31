@@ -289,6 +289,7 @@ export const asyncRoutes = [
         name: 'Case',
         meta: { title: '案件管理' }
       }
+
     ]
   },
 
